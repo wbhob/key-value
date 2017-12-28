@@ -1,0 +1,30 @@
+{
+  "name": "key-value",
+  "version": "1.0.0",
+  "description": "A utility for creating a key-value map from an object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbhob/key-value.git"
+  },
+  "author": "Wilson Hobbs <wilsonhobbs1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbhob/key-value/issues"
+  },
+  "homepage": "https://github.com/wbhob/key-value#readme",
+  "dependencies": {
+    "is-object": "file:../is-object"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
